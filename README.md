@@ -58,7 +58,7 @@
 
 * Windows that are instance of user defined UI classes can be opened. The UI classes need to be inherited from WINDOW class, except this thing large part of defining the class can go like defining a normal window class in Qt python bindings.
 
-* These windows do not open as windows they are actually inplemented using frames inside the FullScreenWindow, they are movable and resizable QWidgets inside the FullScreenWindow that are maintained by WINDOW_MANAGER definaed in QTNOME.
+* These windows do not open as windows they are actually inplemented using frames inside the FullScreenWindow, they are movable and resizable QWidgets inside the FullScreenWindow that are maintained by WINDOW_MANAGER defined in QTNOME.
 
 * The WINDOW_MANAGER is responsible for resizing the windows and closing them. Currently it has only these two features, will be upgraded as per need.
 
