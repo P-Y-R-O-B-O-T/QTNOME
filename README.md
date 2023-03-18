@@ -2,7 +2,7 @@
 
 ![](ZZZ/ZZZ.jpg)
 
-* [PROJECT LINK GITHUB](https://github.com/P-Y-R-O-B-O-T/QTNOME)
+* [PROJECT LINK GITHUB](https://github.com/P-Y-R-O-B-O-T/QTNOME-P-Y-R-O-B-O-T)
 
 * A UI envirement to create and run applications made in PyQt5.
 
