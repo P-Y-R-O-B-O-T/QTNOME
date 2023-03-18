@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools<=64.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "QTNOME_P-Y-R-O-B-O-T"
+version = "1.0.0"
+description = "An multiwindowed application envirement made in PyQt"
+readme = "README.md"
+authors = [{name =  "KUSHAL", email = "NONE@NONE.com"}]
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+keywords = ["UI", "Envirement", "QT",
+			"PyQt", "UI Envirement",
+			"Desktop application"
+			]
+dependencies = ["PyQt5"]
+
+[project.urls]
+Homepage = "https://github.com/P-Y-R-O-B-O-T/QTNOME"
