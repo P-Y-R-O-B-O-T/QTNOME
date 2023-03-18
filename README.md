@@ -52,7 +52,7 @@
 
 ![](ZZZ/ZZZ2.png)
 
-![See video demonstration here](https://drive.google.com/file/d/1cxeoc61BSyLolExkkdvrVIgnkHhjZhXE/view?usp=sharing)
+[See video demonstration here](https://drive.google.com/file/d/1cxeoc61BSyLolExkkdvrVIgnkHhjZhXE/view?usp=sharing)
 
 # HOW IT WORKS ?
 
