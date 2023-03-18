@@ -4,6 +4,8 @@
 
 * [PROJECT LINK GITHUB](https://github.com/P-Y-R-O-B-O-T/QTNOME)
 
+* [PROJECT LINK PYPI](https://pypi.org/project/QTNOME-P-Y-R-O-B-O-T)
+
 * A UI envirement to create and run applications made in PyQt5.
 
 * This gives a very simple but elegant look to the applications utilising QTNOME.
