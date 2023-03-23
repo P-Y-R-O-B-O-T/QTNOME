@@ -1,8 +1,9 @@
-import QTNOME
+from QTNOME import QTNOME
 from PyQt5 import QtWidgets
 
 import sys
-
+dir(QTNOME)
+help(QTNOME)
 class WIN(QTNOME.WINDOW) :
     def __init__(self, parent, xi, yi, width, height) :
         super().__init__(parent)

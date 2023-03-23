@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "QTNOME_P-Y-R-O-B-O-T"
-version = "1.0.2"
+version = "1.0.3"
 description = "An multiwindowed application envirement made in PyQt"
 readme = "README.md"
 authors = [{name =  "KUSHAL", email = "NONE@NONE.com"}]

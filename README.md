@@ -75,7 +75,7 @@
 * Then consider the following code.
 
 ```python3
-from QTNOME.QTNOME import *
+from QTNOME import QTNOME
 from PyQt5 import QtWidgets
 
 import sys
