@@ -85,10 +85,14 @@ class WIN(QTNOME.WINDOW) :
         super().__init__(parent)
         self.setGeometry(xi, yi, width, height)
 
+def on_exit() :
+	print("[ # ] Exiting the application...")
+
 if __name__ == "__main__" :
     from random import randint
 
     QTNOME.INIT_UI()
+	QTNOME.INTERFACE_ENVIREMENT.add_on_exit(on_exit)
 
     for _ in range(10) :
         randcolors = [randint(0, 255), randint(0, 255), randint(0, 255)]
