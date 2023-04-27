@@ -54,6 +54,10 @@ class CLOSE_BUTTON(QFrame) :
                            format(radius=self.HEIGHT//2))
 
     def mousePressEvent(self, event) :
+        if self.PARENT.ON_EXIT :
+            self.PARENT.ON_EXIT()
+        self.PARENT.hide()
+        self.PARENT.deleteLater()
         sys.exit(0)
 
 #$$$$$$$$$$#
@@ -308,7 +312,7 @@ class MEMORY_RELEASER(QObject) :
 class UI_ENV(QMainWindow) :
     def __init__(self) :
         super().__init__()
-        self.on_exit_command = None
+        self.ON_EXIT = None
         self.init_ui()
 
     def init_ui(self) :
@@ -366,8 +370,8 @@ class UI_ENV(QMainWindow) :
     def progress_tracker(self, value) :
         pass
 
-    def on_exit(self) :
-        pass
+    def add_on_exit(self, function) :
+        self.ON_EXIT = function
 
 #$$$$$$$$$$#
 
