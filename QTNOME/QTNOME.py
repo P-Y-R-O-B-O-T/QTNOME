@@ -308,6 +308,7 @@ class MEMORY_RELEASER(QObject) :
 class UI_ENV(QMainWindow) :
     def __init__(self) :
         super().__init__()
+        self.on_exit_command = None
         self.init_ui()
 
     def init_ui(self) :
@@ -363,6 +364,9 @@ class UI_ENV(QMainWindow) :
         self.showFullScreen()
 
     def progress_tracker(self, value) :
+        pass
+
+    def on_exit(self) :
         pass
 
 #$$$$$$$$$$#

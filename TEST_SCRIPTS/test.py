@@ -1,20 +1,27 @@
 from QTNOME import QTNOME
 from PyQt5 import QtWidgets
+from PyQt5.QtWidgets import QLabel
 
 import sys
-dir(QTNOME)
-help(QTNOME)
+
 class WIN(QTNOME.WINDOW) :
     def __init__(self, parent, xi, yi, width, height) :
         super().__init__(parent)
         self.setGeometry(xi, yi, width, height)
+        self.L = QLabel("QWEASDZXC",  self)
+        #self.L.resize(50, 50)
+
+    def resizeEvent(self, event) :
+        print("@", self.L.height(), self.L.width())
+        print("$", self.height(), self.width())
+        self.L.setGeometry(self.width()//4, self.height()//4, self.width()//2, self.height()//2)
 
 if __name__ == "__main__" :
     from random import randint
 
     QTNOME.INIT_UI()
 
-    for _ in range(10) :
+    for _ in range(1) :
         randcolors = [randint(0, 255), randint(0, 255), randint(0, 255)]
         WI = QTNOME.CREATE_WINDOW([WIN, {"xi": randint(0, QtWidgets.QDesktopWidget().screenGeometry(-1).width() - 500),
                                   "yi": randint(0, QtWidgets.QDesktopWidget().screenGeometry(-1).height() - 300),
